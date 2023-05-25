@@ -40,7 +40,24 @@
   margin-bottom: 0.5rem;
 }
 
-a.odkaz {
-  background-color: white;
-  color: black;
+a {
+  text-decoration: none;
+  border: 1px solid rgb(27, 13, 26);
+}
+
+a:hover {
+  background-color: #f6f4f7;
+  transform: translateY(5px);
+}
+
+a:active {
+  background-color: #F4EDF9;
+  transform: translateY(5px);
+}
+
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #392c43;
 }

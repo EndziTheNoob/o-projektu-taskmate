@@ -13,15 +13,18 @@ const Creators = () => {
         </div>
         <div>
           <p>
-            Github:{' '}
             <a
               href="https://github.com/EndziTheNoob/o-projektu-taskmate"
               className="odkaz"
             >
-              Odkaz{' '}
-            </a>{' '}
+              Github
+            </a>
           </p>
-          <p>LinkedIn:</p>
+          <p>
+            <a href="https://www.linkedin.com/in/angelbauer/" className="odkaz">
+              LinkedIn
+            </a>
+          </p>
         </div>
       </div>
       <div className="business-card">
@@ -30,8 +33,20 @@ const Creators = () => {
           <h2 className="business-card__name">Andrea Wimberská</h2>
         </div>
         <div>
-          <p>Github:</p>
-          <p>LinkedIn:</p>
+          <p>
+            <a href="https://github.com/AndyW30" className="odkaz">
+              Github
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/andrea-wimberská-813b14b5/
+"
+              className="odkaz"
+            >
+              LinkedIn
+            </a>
+          </p>
         </div>
       </div>
     </div>
