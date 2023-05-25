@@ -71,3 +71,9 @@ h2 {
   font-size: 12px;
   text-align: left;
 }
+
+.main-container {
+  margin: 1rem;
+  padding: 5rem;
+  text-align: justify;
+}
