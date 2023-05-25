@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 import angieImg from './img/Angie.jpg';
 import andyImg from './img/andy.jpeg';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 const Creators = () => {
   return (
@@ -12,16 +14,17 @@ const Creators = () => {
           <h2 className="business-card__name">Angelika Bauerová</h2>
         </div>
         <div>
-          <p>
-            <a
-              href="https://github.com/EndziTheNoob/o-projektu-taskmate"
-              className="odkaz"
-            >
-              Github
-            </a>
-          </p>
+          <p className='text'>I enjoy digital drawing, pixel art and animation.</p>
+          <a
+            href="https://github.com/EndziTheNoob/o-projektu-taskmate"
+            className="odkaz"
+          >
+            <AiFillGithub /> {}
+            Github
+          </a>
           <p>
             <a href="https://www.linkedin.com/in/angelbauer/" className="odkaz">
+              <AiFillLinkedin /> {}
               LinkedIn
             </a>
           </p>
@@ -35,6 +38,7 @@ const Creators = () => {
         <div>
           <p>
             <a href="https://github.com/AndyW30" className="odkaz">
+              <AiFillGithub /> {}
               Github
             </a>
           </p>
@@ -44,6 +48,7 @@ const Creators = () => {
 "
               className="odkaz"
             >
+              <AiFillLinkedin /> {}
               LinkedIn
             </a>
           </p>

@@ -40,21 +40,22 @@
   margin-bottom: 0.5rem;
 }
 
+.text {
+  text-align: start;
+  
+}
+
 a {
   text-decoration: none;
-  border: 1px solid rgb(27, 13, 26);
+  background-color: #392c43;
+  color: white;
+  border-radius: 5px;
 }
 
 a:hover {
-  background-color: #f6f4f7;
+  background-color: #040304;
   transform: translateY(5px);
 }
-
-a:active {
-  background-color: #F4EDF9;
-  transform: translateY(5px);
-}
-
 
 h2 {
   font-size: 20px;
