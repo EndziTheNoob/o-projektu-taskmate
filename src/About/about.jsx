@@ -1,5 +1,8 @@
 import React from 'react';
 import './style.css';
+import screen2 from './img/screen_taskmate2.png';
+import screen1 from './img/screen_taskmate1.png';
+import screen3 from './img/screen_taskmate3.png';
 
 const About = () => {
   return (
@@ -25,9 +28,9 @@ const About = () => {
         you'll find our application easy to understand and use.
       </p>
       <div className="about_img">
-        <img src="./img/screen_taskmate2.png" />
-        <img src="./img/screen_taskmate1.png" />
-        <img src="./img/screen_taskmate3.png" />
+        <img src={screen2} className="screenshot" />
+        <img src={screen1} className="screenshot" />
+        <img src={screen3} className="screenshot" />
       </div>
     </div>
   );
