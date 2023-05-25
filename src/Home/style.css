@@ -20,10 +20,10 @@ h1 {
 .logo {
   width: 30rem;
   height: 10rem;
-  background-image: url(./img/logo_bublina.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .home_container {

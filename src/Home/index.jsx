@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import { useLocation } from 'react-router-dom';
+import logo from './img/logo_bublina.png';
 
 const Home = () => {
   const location = useLocation();
@@ -12,7 +13,7 @@ const Home = () => {
 
   return (
     <div className="home_container">
-      <div className="logo" />
+      <img src={logo} className="logo" />
       <div className="intro">
         <p>
           Welcome to our exciting front-end project that combines creativity and
