@@ -10,7 +10,9 @@
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 6rem;
+  top: 0px;
+  position: fixed;
 }
 
 .link {
