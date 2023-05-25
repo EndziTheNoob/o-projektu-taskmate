@@ -9,8 +9,14 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
+  display: block;
+  margin: 0;
+  justify-content: center;
+}
+
+#app {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
