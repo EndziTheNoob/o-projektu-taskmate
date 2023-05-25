@@ -12,7 +12,15 @@ const Creators = () => {
           <h2 className="business-card__name">Angelika Bauerová</h2>
         </div>
         <div>
-          <p>Github:</p>
+          <p>
+            Github:{' '}
+            <a
+              href="https://github.com/EndziTheNoob/o-projektu-taskmate"
+              className="odkaz"
+            >
+              Odkaz{' '}
+            </a>{' '}
+          </p>
           <p>LinkedIn:</p>
         </div>
       </div>

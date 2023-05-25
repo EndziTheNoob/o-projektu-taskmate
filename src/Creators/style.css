@@ -8,6 +8,7 @@
   margin-bottom: 0;
   padding-bottom: 0;
   padding: 0 10rem;
+  flex-wrap: wrap;
 }
 
 .business-card {
@@ -37,4 +38,9 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 0.5rem;
+}
+
+a.odkaz {
+  background-color: white;
+  color: black;
 }

@@ -11,9 +11,10 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-right: 6%;
+  padding-bottom: 1rem;
 }
 
-a {
+.link {
   text-decoration: none;
   color: black;
   font-size: 0.8rem;
@@ -25,12 +26,12 @@ a {
   width: 10rem;
 }
 
-a:hover {
+.link:hover {
   background-color: #F4EDF9;
   transform: translateY(5px);
 }
 
-a:active {
+.link:active {
   background-color: #F4EDF9;
   transform: translateY(5px);
 }
