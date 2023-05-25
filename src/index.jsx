@@ -11,7 +11,7 @@ import Creators from './Creators/Creators';
 
 const App = () => {
   return (
-    <div className="container">
+    <>
       <Router>
         <Header />
         <Routes>
@@ -22,7 +22,7 @@ const App = () => {
         </Routes>
         <Footer />
       </Router>
-    </div>
+    </>
   );
 };
 
