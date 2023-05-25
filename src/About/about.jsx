@@ -4,7 +4,7 @@ import './style.css';
 const About = () => {
   return (
     <div className="about">
-      <h3>What it is about</h3>
+      <h1>What it is about</h1>
       <ul>
         <li>We understand the importance of staying organized and focused. </li>
         <li>

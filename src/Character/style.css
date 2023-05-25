@@ -14,12 +14,9 @@
   color: #392c43;
 }
 
-.character img {
-  width: 40%;
-}
 
-.gif_kafe img {
+.gif_kafe {
   align-self: flex-end;
   margin-bottom: 0;
-  width: 40px;
+  width: 400px;
 }
