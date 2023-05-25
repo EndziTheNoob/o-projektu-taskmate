@@ -1,0 +1,20 @@
+.character {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+}
+
+.character h1 {
+  color: #392c43;
+}
+
+.character img {
+  width: 40%;
+}
+
+.gif_kafe {
+  align-self: center;
+  margin-bottom: 0;
+}
