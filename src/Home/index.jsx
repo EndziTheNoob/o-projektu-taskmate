@@ -11,7 +11,7 @@ const Home = () => {
   }
 
   return (
-    <>
+    <div className="home_container">
       <div className="logo" />
       <div className="intro">
         <p>
@@ -23,7 +23,7 @@ const Home = () => {
           pixel art character with a user-friendly to-do list.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 
