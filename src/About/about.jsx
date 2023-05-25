@@ -8,17 +8,15 @@ const About = () => {
   return (
     <div className="about">
       <h1>What it is about</h1>
-      <ul>
-        <li>We understand the importance of staying organized and focused. </li>
-        <li>
-          With our TaskMate app, you can effortlessly manage your tasks, set
-          priorities, and track your progress.{' '}
-        </li>
-        <li>
-          The minimalist design ensures a clutter-free interface, allowing you
-          to concentrate on what truly matters: getting things done.
-        </li>
-      </ul>
+      <p>We understand the importance of staying organized and focused. </p>
+      <p>
+        With our TaskMate app, you can effortlessly manage your tasks, set
+        priorities, and track your progress.{' '}
+      </p>
+      <p>
+        The minimalist design ensures a clutter-free interface, allowing you to
+        concentrate on what truly matters: getting things done.
+      </p>
       <p>
         <h3>Our TaskMate project prioritizes:</h3> usability, making it
         accessible and enjoyable for users of all levels of technical expertise.{' '}

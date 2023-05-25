@@ -27,10 +27,9 @@ h1 {
 }
 
 .home_container {
-  max-width: 60rem;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
 }
