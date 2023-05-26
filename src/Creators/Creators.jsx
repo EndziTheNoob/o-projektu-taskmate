@@ -3,10 +3,11 @@ import './style.css';
 import angieImg from './img/Angie.jpg';
 import andyImg from './img/andy.jpeg';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import Footer from '../Footer/index.jsx';
 
 const Creators = () => {
   return (
-    <div>
+    <div className="creators">
       <div className="creators_container">
         <div className="business-card">
           <div>
@@ -79,13 +80,16 @@ const Creators = () => {
           </div>
         </div>
       </div>
-      <p className="main-container">
-        We are participants of the Digital Academy at Czechitas, a leading
-        organization offering digital courses and programs. Through the Digital
-        Academy's web track, we are gaining valuable knowledge and skills in web
-        development to embark on exciting digital journeys.
-        <span style={{ color: '#8B008B' }}> #Digital Academy #Czechitas</span>
-      </p>
+      <div>
+        <p className="main-container">
+          We are participants of the Digital Academy at Czechitas, a leading
+          organization offering digital courses and programs. Through the
+          Digital Academy's web track, we are gaining valuable knowledge and
+          skills in web development to embark on exciting digital journeys.
+          <span style={{ color: '#8B008B' }}> #Digital Academy #Czechitas</span>
+        </p>
+      </div>
+      <Footer />
     </div>
   );
 };

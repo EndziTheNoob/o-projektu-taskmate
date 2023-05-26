@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import { useLocation } from 'react-router-dom';
 import logo from './img/logo_bublina.png';
+import Footer from '../Footer/index.jsx';
 
 const Home = () => {
   const location = useLocation();
@@ -24,6 +25,7 @@ const Home = () => {
           pixel art character with a user-friendly to-do list.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };
