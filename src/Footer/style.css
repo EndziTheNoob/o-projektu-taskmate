@@ -1,14 +1,27 @@
+/* .footer {
+  background-color: #B6ACBD;
+  position: relative;
+  height: inherit;
+  /* height: 50px;
+  margin-bottom: 0px;
+  /* display: flex; */
+/* align-items: center; */
+/* justify-content: center;
+  width: 100%;
+  bottom: 0px; */
+/* position: fixed; */
+/* right: 0px; */
+/* } */
+
 .footer {
   background-color: #B6ACBD;
-  height: 4rem;
-  margin-bottom: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  bottom: 0px;
-  position: fixed;
-  right: 0px;
+  margin: 0;
+  height: 3rem;
+  text-align: center;
+  padding: 0;
 }
 
 .footer p {

@@ -1,13 +1,16 @@
 .about {
-  max-width: 50rem;
-  height: 100%;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+  /* margin-bottom: 6rem;
   padding-bottom: 0;
   padding: 0 3rem;
+  position: relative; */
 }
 
 h1 {
@@ -17,7 +20,9 @@ h1 {
 .about_img {
   display: flex;
   gap: 5rem;
-  margin-top: 5rem;
+  height: 100%;
+  margin: 4rem;
+  /* margin-top: 5rem; */
 }
 
 .screenshot {
@@ -25,4 +30,15 @@ h1 {
   border: black solid 0.2rem;
   box-shadow: -3px 4px rgb(129, 129, 129);
   border-radius: 12px;
+}
+
+.footer {
+  background-color: #B6ACBD;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  height: 3rem;
+  text-align: center;
+  padding: 0;
 }

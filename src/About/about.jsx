@@ -3,6 +3,7 @@ import './style.css';
 import screen2 from './img/screen_taskmate2.png';
 import screen1 from './img/screen_taskmate1.png';
 import screen3 from './img/screen_taskmate3.png';
+import Footer from '../Footer/index.jsx';
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
         <img src={screen1} className="screenshot" />
         <img src={screen3} className="screenshot" />
       </div>
+      <Footer />
     </div>
   );
 };
