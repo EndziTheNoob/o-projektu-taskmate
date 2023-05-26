@@ -1,13 +1,15 @@
 .character {
-  max-width: 50rem;
+  max-width: 80rem;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding: 0 3rem;
+  margin: 1rem;
+  text-align: justify;
+  /* align-items: center; */
+  /* margin-bottom: 0;
+  padding-bottom: 0; */
+  /* padding: 0 3rem; */
 }
 
 .character h1 {
@@ -17,9 +19,8 @@
 
 .gif_kafe {
   align-self: center;
-  margin-bottom: 0;
-  width: 400px;
+  /* margin-bottom: 0; */
+  width: 30%;
   margin-top: 1rem;
-  bottom: 4rem;
-  position: fixed;
+  bottom: 0;
 }
