@@ -18,10 +18,16 @@ const About = () => {
         The minimalist design ensures a clutter-free interface, allowing you to
         concentrate on what truly matters: getting things done.
       </p>
-      <h1>Our TaskMate project prioritizes:</h1> Usability, making it accessible
-      and enjoyable for users of all levels of technical expertise.{' '}
-      <h1>The interface is designed:</h1> With simplicity in mind, enabling
-      effortless navigation and quick task management.
+      <h1>Our TaskMate project prioritizes:</h1>
+      <p>
+        Usability, making it accessible and enjoyable for users of all levels of
+        technical expertise.{' '}
+      </p>
+      <h1>The interface is designed:</h1>
+      <p>
+        With simplicity in mind, enabling effortless navigation and quick task
+        management.
+      </p>
       <div className="about_img">
         <img src={screen2} className="screenshot" />
         <img src={screen1} className="screenshot" />

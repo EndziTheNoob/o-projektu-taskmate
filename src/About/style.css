@@ -1,20 +1,22 @@
 .about {
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 7rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding-bottom: 3rem;
   margin-bottom: 4rem;
-  /* margin-bottom: 6rem;
-  padding-bottom: 0;
-  padding: 0 3rem;
-  position: relative; */
 }
 
 h1 {
   color: #392c43;
+  text-align: left;
+}
+
+.about p,
+h1 {
+  padding-left: 4rem;
+  padding-right: 2rem;
 }
 
 .about_img {
@@ -22,7 +24,7 @@ h1 {
   gap: 5rem;
   height: 100%;
   margin: 4rem;
-  /* margin-top: 5rem; */
+  justify-content: center;
 }
 
 .screenshot {

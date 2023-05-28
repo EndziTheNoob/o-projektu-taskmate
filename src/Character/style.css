@@ -4,14 +4,10 @@
   justify-content: center;
   text-align: justify;
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 7rem);
   align-items: center;
   padding-bottom: 3rem;
   margin-bottom: 4rem;
-  /* align-items: center; */
-  /* margin-bottom: 0;
-  padding-bottom: 0; */
-  /* padding: 0 3rem; */
   padding-left: 1rem;
   padding-right: 1rem;
 }
