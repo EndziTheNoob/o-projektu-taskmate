@@ -12,6 +12,8 @@
   /* margin-bottom: 0;
   padding-bottom: 0; */
   /* padding: 0 3rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .character h1 {
@@ -36,4 +38,8 @@
   width: 30%;
   margin-top: 1rem;
   bottom: 0;
+}
+
+.character-text {
+  padding: 0 4rem;
 }
